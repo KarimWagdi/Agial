@@ -20,7 +20,7 @@ function LeftSection(props) {
             <section>
                 <div className="container">
                     <div className="row">
-                        <article className="leftSection sectionArticle col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        <article className="leftSection sectionArticle col-md-6 " data-aos="fade-up" data-aos-delay="200">
                             <span className="title" data-aos="fade-up" data-aos-delay="250">
                                 {props.title}
                             </span>
@@ -30,7 +30,7 @@ function LeftSection(props) {
 
                         </article>
 
-                        <section className="sectionImg col-md-6" data-aos="fade-left">
+                        <section className="sectionImg col-md-6 " data-aos="fade-left">
                             <img src={props.img}>
                             </img>
                         </section>
